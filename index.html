@@ -1,30 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
     <link rel="stylesheet" href="styles/index.css">
 </head>
+
 <body>
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <header id="header">
-        <div class="nav-container">
-            <img id="header-img" class="images" src="./images/mrrobot.jpg" alt="Mr. Robot: Computer Repair with a Smile!">
-            <nav id="nav-bar">
-                <ul class="nav-items">
-                    <li class="nav-link"><a href="#">Menu</a></li>
-                    <li class="nav-link"><a href="#">Menu</a></li>
-                    <li class="nav-link"><a href="#">Menu</a></li>
-                </ul>
-            </nav>
-            <form id="form" class="nav-login" action="https://www.freecodecamp.com/email-submit">
-                <label for="email" id="email-label" hidden>Login: Enter your email address</label>
-                <input id="email" type="email" placeholder="Enter your email address">
-                <input type="submit" id="submit" value="Login">
-            </form>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <header id="header" class="nav-container">
+        <img id="header-img" src="./images/logos/mrrobot.logo.png" alt="Mr. Robot">
+        <nav id="nav-bar">
+            <ul class="nav-items">
+                <li class="nav-link"><a href="#">Systems</a></li>
+                <li class="nav-link"><a href="#">Information</a></li>
+                <li class="nav-link"><a href="#">Services</a></li>
+            </ul>
+        </nav>
+        <form id="form" class="nav-login" action="https://www.freecodecamp.com/email-submit">
+            <label for="email" id="email-label" hidden>Login: Enter your email address</label>
+            <input id="email" type="email" name="email" placeholder="Enter your email address">
+            <input type="submit" id="submit" value="Login">
+        </form>
+    </header>
+    <main>
+        <div class="flex-container nav-margin">
+            <h2>Systems</h2>
+            <figure class="container">
+            <img class="systems-image" src="./images/logos/bsd.png" alt="BSD" title="BSD">
+            <figcaption>BSD</figcaption>
+            </figure>
+            <figure class="container">
+            <img class="systems-image" src="./images/logos/GNU.png" alt="GNU Tools" title="GNU Tools">
+            <figcaption>GNU Tools</figcaption>
+            </figure>
+            <figure class="container">
+            <img class="systems-image" src="images/logos/Linux.png" alt="Linux" title="Linux">
+            <figcaption>Linux</figcaption>
+            </figure>
         </div>
-</header>
-    
+        <div class="flex-container">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2_lswM1S264" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </main>
 </body>
+
 </html>
