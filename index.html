@@ -14,9 +14,9 @@
         <img id="header-img" src="./images/logos/mrrobot.logo.png" alt="Mr. Robot">
         <nav id="nav-bar">
             <ul class="nav-items">
-                <li class="nav-link"><a href="#">Systems</a></li>
-                <li class="nav-link"><a href="#">Information</a></li>
-                <li class="nav-link"><a href="#">Services</a></li>
+                <li><a class="nav-link" href="#systems">Systems</a></li>
+                <li><a class="nav-link" href="#information">Information</a></li>
+                <li><a class="nav-link" href="#services">Services</a></li>
             </ul>
         </nav>
         <form id="form" class="nav-login" action="https://www.freecodecamp.com/email-submit">
@@ -27,7 +27,7 @@
     </header>
     <main>
         <div class="flex-container nav-margin">
-            <h2>Systems</h2>
+            <h2 id="systems">Systems</h2>
             <figure class="container">
             <img class="systems-image" src="./images/logos/bsd.png" alt="BSD" title="BSD">
             <figcaption>BSD</figcaption>
@@ -41,10 +41,26 @@
             <figcaption>Linux</figcaption>
             </figure>
         </div>
-        <div class="flex-container">
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2_lswM1S264" frameborder="0"
+        <div class="video-container">
+            <h2 id="information">Information</h2>
+            <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/2_lswM1S264" frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
+        </div>
+        <div class="container">
+            <h2 id="services">Services</h2>
+            <div class="container">
+                <h3>Penetration Testing</h3>
+                <p>We are prepared to test your systems with the best tools availables.</p>
+            </div>
+            <div class="container">
+                <h3>Secure your systems</h3>   
+                <p>We can review and configure your systems with the best practices and softwares, including firewall, VPN, antivirus and cloud!</p>
+            </div>
+            <div class="container">
+                <h3>Audit software</h3>   
+                <p>We have a team specialed of software auditors to examine your software and report security vulnerabilities</p>
+            </div>
         </div>
     </main>
 </body>
