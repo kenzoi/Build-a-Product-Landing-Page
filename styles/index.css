@@ -23,10 +23,13 @@ h2 {
     align-items: center;
     background-color: white;
 }
-
 .nav-container img {
     max-width: 50%;
     height: auto;
+}
+
+main {
+    margin-top: 165px;
 }
 
 .nav-container > nav {
@@ -51,11 +54,14 @@ h2 {
     margin-top: 10px;
 }
 
+#fix-systems {
+    position: absolute;
+    top: 0;
+}
+
+
 /* || Page */
 
-.nav-margin {
-    margin-top: 230px;
-}
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -88,4 +94,28 @@ h2 {
     margin: 30px 20px;
     flex-wrap: wrap;
     text-align: center;
+}
+
+.container--width {
+    width: 80%;
+    margin: auto;
+}
+
+.container--margin {
+    margin-bottom: 25px;
+}
+
+.container--margin > h3 {
+    margin-bottom: 10px;
+}
+
+.flex-container__footer {
+    font-size: 0.7em;
+    margin-top: 30px;
+    background-color: grey;
+    text-align: justify;
+}
+
+.flex-container__footer > :first-child {
+    margin-bottom: 10px;
 }

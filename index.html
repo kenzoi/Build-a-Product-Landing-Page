@@ -10,12 +10,13 @@
 
 <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    
     <header id="header" class="nav-container">
         <img id="header-img" src="./images/logos/mrrobot.logo.png" alt="Mr. Robot">
         <nav id="nav-bar">
             <ul class="nav-items">
-                <li><a class="nav-link" href="#systems">Systems</a></li>
-                <li><a class="nav-link" href="#information">Information</a></li>
+                <li><a class="nav-link" href="#fix-systems">Systems</a></li>
+                <li><a class="nav-link" href="#systems">Information</a></li>
                 <li><a class="nav-link" href="#services">Services</a></li>
             </ul>
         </nav>
@@ -26,8 +27,9 @@
         </form>
     </header>
     <main>
-        <div class="flex-container nav-margin">
+        <div class="flex-container">
             <h2 id="systems">Systems</h2>
+            <h2 id="fix-systems"></h2>
             <figure class="container">
             <img class="systems-image" src="./images/logos/bsd.png" alt="BSD" title="BSD">
             <figcaption>BSD</figcaption>
@@ -47,22 +49,26 @@
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </div>
-        <div class="container">
+        <div class="container container--width">
             <h2 id="services">Services</h2>
-            <div class="container">
+            <div class="container container--margin">
                 <h3>Penetration Testing</h3>
                 <p>We are prepared to test your systems with the best tools availables.</p>
             </div>
-            <div class="container">
+            <div class="container container--margin">
                 <h3>Secure your systems</h3>   
                 <p>We can review and configure your systems with the best practices and softwares, including firewall, VPN, antivirus and cloud!</p>
             </div>
-            <div class="container">
+            <div class="container container--margin">
                 <h3>Audit software</h3>   
                 <p>We have a team specialed of software auditors to examine your software and report security vulnerabilities</p>
             </div>
         </div>
     </main>
+    <footer class="flex-container flex-container__footer">
+        <p>This is a project for a freecodecamp certification, we do not provide the services mentioned above.</p>
+        <p>The logo "MR. ROBOT" is from the TV show Mr. Robot (USA Network) and we use the logo just like a tribute to the show, this page do not have any commercial purpose.</p>
+    </footer>
 </body>
 
 </html>
